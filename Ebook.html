@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recalcule Sua Mente - Transformação em 30 Dias</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #2c3e50; background: #f8f9fa; }
+        .container { max-width: 680px; margin: 0 auto; padding: 20px; background: white; }
+        .header { text-align: center; padding: 30px 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 12px; margin-bottom: 30px; }
+        .header h1 { font-size: 2em; margin-bottom: 10px; }
+        .header p { font-size: 1.1em; opacity: 0.95; }
+        .cover-image { text-align: center; margin: 25px 0; }
+        .cover-image img { max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+        .section { margin-bottom: 30px; padding: 0 10px; }
+        .problem-box { background: #fff3cd; border-left: 4px solid #ffc107; padding: 15px; margin: 15px 0; border-radius: 8px; }
+        .benefit-box { background: #d1ecf1; border-left: 4px solid #17a2b8; padding: 15px; margin: 15px 0; border-radius: 8px; }
+        .feature { display: flex; align-items: start; margin: 15px 0; }
+        .feature-icon { font-size: 2em; margin-right: 15px; min-width: 50px; }
+        .price-box { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; text-align: center; padding: 25px; border-radius: 12px; margin: 25px 0; }
+        .price-old { font-size: 1.2em; text-decoration: line-through; opacity: 0.8; }
+        .price-new { font-size: 3em; font-weight: bold; margin: 10px 0; }
+        .guarantee { background: #d4edda; border: 2px solid #28a745; padding: 20px; border-radius: 10px; text-align: center; margin: 25px 0; }
+        .bonus { background: #fff8e1; padding: 15px; border-radius: 8px; margin: 10px 0; border-left: 4px solid #ffc107; }
+        h2 { color: #2c3e50; font-size: 1.6em; margin-bottom: 15px; text-align: center; }
+        h3 { color: #495057; font-size: 1.2em; margin-bottom: 10px; }
+        ul { margin-left: 20px; }
+        li { margin: 8px 0; }
+        
+        /* Botão CTA */
+        .cta-button {
+            display: block;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 22px 45px;
+            font-size: 1.3em;
+            font-weight: bold;
+            border-radius: 50px;
+            text-decoration: none;
+            text-align: center;
+            margin: 30px auto;
+            max-width: 500px;
+            box-shadow: 0 10px 30px rgba(240, 147, 251, 0.4);
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(240, 147, 251, 0.6);
+        }
+        .cta-button:active {
+            transform: translateY(0);
+        }
+        
+        /* Sticky CTA Mobile */
+        .sticky-cta {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 -5px 20px rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+        .sticky-cta a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 { font-size: 1.6em; }
+            .price-new { font-size: 2.5em; }
+            .cta-button { font-size: 1.1em; padding: 18px 35px; }
+            .sticky-cta { display: block; }
+            body { padding-bottom: 70px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <!-- Header -->
+        <div class="header">
+            <h1>🧠 Recalcule Sua Mente</h1>
+            <p>Transforme sua vida sexual em 30 dias com ciência comprovada</p>
+        </div>
+
+        <!-- Capa do eBook -->
+        <div class="cover-image">
+            <img src="https://i.imgur.com/Wmxyc19.jpg" alt="Capa Recalcule Sua Mente">
+        </div>
+
+        <!-- CTA 1: Logo após a capa -->
+        <a href="SEU_LINK_KIWIFY_AQUI" class="cta-button">
+            🚀 QUERO COMEÇAR AGORA - R$ 47,00
+        </a>
+
+        <!-- Problema -->
+        <div class="section">
+            <h2>😔 Você Se Identifica Com Isso?</h2>
+            <div class="problem-box">
+                <strong>❌ Baixa libido</strong> mesmo em relacionamento saudável<br>
+                <strong>❌ Mente distante</strong> durante intimidade<br>
+                <strong>❌ Ansiedade sexual</strong> que bloqueia prazer<br>
+                <strong>❌ Relação sem energia</strong> depois de anos juntos<br>
+                <strong>❌ Dificuldade de orgasmo</strong> sem causa física
+            </div>
+            <p style="text-align: center; margin-top: 15px;"><strong>Você NÃO está quebrado(a). Seu cérebro precisa ser RECALIBRADO.</strong></p>
+        </div>
+
+        <!-- Solução -->
+        <div class="section">
+            <h2>✨ A Ciência Por Trás da Transformação</h2>
+            <p style="text-align: center; margin-bottom: 20px;">Quando você experimenta prazer sexual, <strong>mais de 30 regiões cerebrais</strong> se ativam simultaneamente. Se seu cérebro não está calibrado, nenhuma técnica física vai funcionar.</p>
+            
+            <div class="benefit-box">
+                <strong>🧬 Neuroplasticidade Sexual:</strong> Seu cérebro pode ser retreinado para prazer mais intenso<br><br>
+                <strong>🥑 Nutrição Estratégica:</strong> 15 alimentos aumentam óxido nítrico e circulação em 40%<br><br>
+                <strong>🧘 Mindfulness Sexual:</strong> Reduz ansiedade e aumenta presença em 60%
+            </div>
+        </div>
+
+        <!-- O que está incluído -->
+        <div class="section">
+            <h2>📚 O Que Você Vai Receber</h2>
+            
+            <div class="feature">
+                <div class="feature-icon">🧬</div>
+                <div>
+                    <strong>PARTE 1: Fundações Científicas</strong><br>
+                    Como o cérebro coordena desejo, prazer e conexão. Por que ele é seu principal órgão sexual.
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">🥗</div>
+                <div>
+                    <strong>PARTE 2: Nutrição Sexual</strong><br>
+                    15 alimentos transformacionais + plano de 30 dias + timing estratégico antes de intimidade.
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">🧘</div>
+                <div>
+                    <strong>PARTE 3: Recalibração Mental</strong><br>
+                    Técnicas de respiração 4-7-8, presença, reprogramação de crenças limitantes.
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">📋</div>
+                <div>
+                    <strong>PARTE 4: Programa 30 Dias</strong><br>
+                    7 exercícios práticos, rotina semanal, checklist para acompanhar progresso.
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA 2: Após mostrar o que recebe -->
+        <a href="SEU_LINK_KIWIFY_AQUI" class="cta-button">
+            💳 GARANTIR MINHA VAGA AGORA
+        </a>
+
+        <!-- Bônus -->
+        <div class="section">
+            <h2>🎁 Bônus Exclusivos (Valor R$ 197)</h2>
+            
+            <div class="bonus">
+                <strong>🎁 BÔNUS 1:</strong> Infográfico dos 15 Alimentos (para colar na geladeira)
+            </div>
+            <div class="bonus">
+                <strong>🎁 BÔNUS 2:</strong> Checklist Interativo de 30 Dias (acompanhe seu progresso)
+            </div>
+            <div class="bonus">
+                <strong>🎁 BÔNUS 3:</strong> Meditação Guiada de Energia Sexual (áudio 15min)
+            </div>
+            <div class="bonus">
+                <strong>🎁 BÔNUS 4:</strong> 50 Perguntas para Comunicação Íntima (aprofunde conexão)
+            </div>
+        </div>
+
+        <!-- Especialistas -->
+        <div class="section">
+            <h2>🎓 Baseado em Especialistas Mundiais</h2>
+            <ul style="list-style: none; margin-left: 0;">
+                <li>👨‍🔬 <strong>Dr. Barry Komisaruk</strong> - Neurocientista (40 anos pesquisando orgasmos)</li>
+                <li>👩‍⚕️ <strong>Dr. Christiane Northrup</strong> - Especialista em Nutrição Sexual</li>
+                <li>👩‍🏫 <strong>Emily Nagoski</strong> - Autora bestseller NYT "Come As You Are"</li>
+                <li>👩‍💼 <strong>Esther Perel</strong> - Terapeuta de Casais Reconhecida Globalmente</li>
+            </ul>
+        </div>
+
+        <!-- Resultados -->
+        <div class="section">
+            <h2>✅ Resultados em 30 Dias</h2>
+            <div class="benefit-box">
+                ✅ Aumento significativo de libido e desejo<br>
+                ✅ Maior presença mental durante intimidade<br>
+                ✅ Orgasmos mais intensos e frequentes<br>
+                ✅ Redução de ansiedade sexual<br>
+                ✅ Reconexão profunda com seu corpo<br>
+                ✅ Comunicação mais aberta com parceiro(a)
+            </div>
+        </div>
+
+        <!-- Preço -->
+        <div class="price-box">
+            <div class="price-old">De R$ 197,00 por:</div>
+            <div class="price-new">R$ 47,00</div>
+            <p style="font-size: 1.1em; margin-top: 10px;">✅ Acesso imediato<br>✅ Pagamento único<br>✅ Conteúdo 100% digital</p>
+        </div>
+
+        <!-- CTA 3: Após mostrar o preço -->
+        <a href="SEU_LINK_KIWIFY_AQUI" class="cta-button">
+            ✨ SIM, EU QUERO TRANSFORMAR MINHA VIDA
+        </a>
+
+        <!-- Garantia -->
+        <div class="guarantee">
+            <h3 style="color: #28a745; margin-bottom: 10px;">🛡️ Garantia de 7 Dias</h3>
+            <p>Experimente o programa por 7 dias. Se não sentir nenhuma mudança na sua energia sexual, devolvemos <strong>100% do seu dinheiro</strong>. Sem perguntas. Sem burocracia.</p>
+        </div>
+
+        <!-- FAQ Rápido -->
+        <div class="section">
+            <h2>❓ Perguntas Frequentes</h2>
+            <p><strong>Funciona para homens E mulheres?</strong><br>
+            Sim! Baseado em neurociência que funciona para ambos os sexos.</p>
+            
+            <p style="margin-top: 15px;"><strong>Preciso ter parceiro(a)?</strong><br>
+            Não. 70% dos exercícios são individuais.</p>
+            
+            <p style="margin-top: 15px;"><strong>Quanto tempo por dia?</strong><br>
+            15-20 minutos. Menos que uma série no Netflix.</p>
+            
+            <p style="margin-top: 15px;"><strong>É seguro?</strong><br>
+            100% seguro. Técnicas naturais sem contraindicações.</p>
+            
+            <p style="margin-top: 15px;"><strong>Quando recebo?</strong><br>
+            Acesso IMEDIATO após aprovação do pagamento (2-5 minutos).</p>
+        </div>
+
+        <!-- CTA 4: Final -->
+        <a href="SEU_LINK_KIWIFY_AQUI" class="cta-button">
+            🔥 ÚLTIMA CHANCE - COMEÇAR AGORA
+        </a>
+
+        <!-- Footer -->
+        <div style="text-align: center; padding: 20px; color: #6c757d; font-size: 0.9em; border-top: 1px solid #dee2e6; margin-top: 30px;">
+            <p>© 2026 Recalcule Sua Mente</p>
+            <p style="margin-top: 5px;">Conteúdo educacional voltado à saúde e bem-estar sexual</p>
+        </div>
+
+    </div>
+
+    <!-- Botão Sticky Mobile (fixo na parte inferior) -->
+    <div class="sticky-cta">
+        <a href="SEU_LINK_KIWIFY_AQUI">🚀 COMPRAR AGORA - R$ 47,00</a>
+    </div>
+
+</body>
+</html>
